@@ -30,10 +30,10 @@ const Banner = () => {
                 <div className="hero min-h-screen" style={{ backgroundImage: 'url(https://i.ibb.co/dbRvLK1/banner.jpg)' }}>
                     <div className="hero-overlay bg-opacity-60"></div>
                     <div className="hero-content text-center text-neutral-content">
-                        <div className="max-w-md">
-                            <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-                            <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                            <button className="btn btn-primary">Get Started</button>
+                        <div className="">
+                            <h1 className="mb-5 text-5xl font-bold -pl-48">Find Your New Home</h1>
+                            <p className="mb-5">Let's find a space that's perfect for you.</p>
+                            <button className="btn btn-primary">Let's Search</button>
                         </div>
                     </div>
                 </div>
@@ -41,11 +41,11 @@ const Banner = () => {
             <SwiperSlide>
 
                 <div className="hero min-h-screen" style={{ backgroundImage: 'url(https://i.ibb.co/WHW64MR/banner-1.jpg)' }}>
-                    <div className="hero-overlay bg-opacity-60"></div>
+                    <div className="hero-overlay bg-opacity-70"></div>
                     <div className="hero-content text-center text-neutral-content">
-                        <div className="max-w-md">
-                            <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-                            <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <div className="">
+                            <h1 className="mb-5 text-5xl font-bold -pl-30">Find Your New Home</h1>
+                            <p className="mb-5">Let's find a space that's perfect for you.</p>
                             <button className="btn btn-primary">Get Started</button>
                         </div>
                     </div>
@@ -55,9 +55,9 @@ const Banner = () => {
                 <div className="hero min-h-screen" style={{ backgroundImage: 'url(https://i.ibb.co/YB24hg5/banner-2.jpg)' }}>
                     <div className="hero-overlay bg-opacity-60"></div>
                     <div className="hero-content text-center text-neutral-content">
-                        <div className="max-w-md">
-                            <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-                            <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <div className="">
+                            <h1 className="mb-5 text-5xl font-bold -pl-30">Find Your New Home</h1>
+                            <p className="mb-5">Let's find a space that's perfect for you.</p>
                             <button className="btn btn-primary">Get Started</button>
                         </div>
                     </div>
