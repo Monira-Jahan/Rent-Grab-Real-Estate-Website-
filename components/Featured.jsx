@@ -30,7 +30,7 @@ const Featured = () => {
                                 <p className='text-sm text-gray-400'>For Rent</p>
                                 <p className=''><span className='text-sm font-bold'>BDT 25,000</span>/month</p>
                             </div>
-                            <button className="btn btn-primary">See Details</button>
+                            <button className="btn btn-primary text-white">Details</button>
 
                         </div>
                     </div>
@@ -54,7 +54,7 @@ const Featured = () => {
                                 <p className='text-sm text-gray-400'>For Sell</p>
                                 <p className=''><span className='text-sm font-bold'>BDT 1.23 Crore</span></p>
                             </div>
-                            <button className="btn btn-primary">See Details</button>
+                            <button className="btn btn-primary text-white">Details</button>
 
                         </div>
                     </div>
@@ -78,7 +78,7 @@ const Featured = () => {
                                 <p className='text-sm text-gray-400'>For Sell</p>
                                 <p className=''><span className='text-sm font-bold'>BDT 2.3 Crore</span></p>
                             </div>
-                            <button className="btn btn-primary">See Details</button>
+                            <button className="btn btn-primary text-white">Details</button>
 
                         </div>
                     </div>
@@ -103,7 +103,7 @@ const Featured = () => {
                                 <p className='text-sm text-gray-400'>For Rent</p>
                                 <p className=''><span className='text-sm font-bold'>BDT 35,000</span>/month</p>
                             </div>
-                            <button className="btn btn-primary">See Details</button>
+                            <button className="btn btn-primary text-white"> Details</button>
 
                         </div>
                     </div>
@@ -111,7 +111,7 @@ const Featured = () => {
             </div>
 
             <div className='ml-48 mt-6'>
-                <button className='btn btn-primary  md:mx-96'>See More</button>
+                <button className='btn btn-primary md:mx-96 text-white mb-3'>See More</button>
             </div>
         </section >
     );

@@ -33,7 +33,7 @@ const Banner = () => {
                         <div className="">
                             <h1 className="mb-5 text-5xl font-bold -pl-48">Find Your New Home</h1>
                             <p className="mb-5">Let's find a space that's perfect for you.</p>
-                            <button className="btn btn-primary">Let's Search</button>
+                            <button className="btn btn-primary">Get Started</button>
                         </div>
                     </div>
                 </div>
