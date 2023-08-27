@@ -1,8 +1,8 @@
 import React from 'react';
-
+import { FaUserAlt } from "react-icons/fa";
 const Header = () => {
     return (
-        <div className="navbar bg-base-100 border shadow-xl rounded-xl">
+        <div className="navbar bg-base-100 border shadow-xl rounded-xl mb-4">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -12,10 +12,7 @@ const Header = () => {
                         <li><a>Home</a></li>
                         <li>
                             <a>Property</a>
-                            <ul className="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
+                        
                         </li>
                         <li><a>Blog</a></li>
                         <li><a>About</a></li>
@@ -31,10 +28,7 @@ const Header = () => {
                     <li tabIndex={0}>
                         <details>
                             <summary>Property</summary>
-                            <ul className="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
+                            
                         </details>
                     </li>
                     <li><a>Blog</a></li>
@@ -43,7 +37,7 @@ const Header = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Join Us</a>
+                <a className="btn btn-primary text-white"><FaUserAlt className='mr-1 text-white'/>Join Us</a>
             </div>
         </div>
     );
