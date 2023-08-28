@@ -5,6 +5,7 @@ import Featured from '@/components/Featured'
 import Footer from '@/components/Footer'
 
 import Header from '@/components/Header'
+import WorkProcess from '@/components/WorkProcess'
 import Image from 'next/image'
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
      <Category></Category>
      <Featured></Featured>
      <AvailableCities></AvailableCities>
+     <WorkProcess></WorkProcess>
      <Footer></Footer>
    </div>
   )
