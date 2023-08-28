@@ -31,9 +31,9 @@ const Banner = () => {
                     <div className="hero-overlay bg-opacity-60"></div>
                     <div className="hero-content text-center text-neutral-content">
                         <div className="">
-                            <h1 className="mb-5 text-5xl font-bold -pl-48">Find Your New Home</h1>
-                            <p className="mb-5">Let's find a space that's perfect for you.</p>
-                            <button className="btn btn-primary">Get Started</button>
+                            <h1 className="mb-5 text-5xl font-bold -pl-48 text-white">Find Your New Home</h1>
+                            <p className="mb-5 text-white">Let's find a space that's perfect for you.</p>
+                            <button className="btn btn-primary text-white">Get Started</button>
                         </div>
                     </div>
                 </div>
@@ -44,9 +44,9 @@ const Banner = () => {
                     <div className="hero-overlay bg-opacity-70"></div>
                     <div className="hero-content text-center text-neutral-content">
                         <div className="">
-                            <h1 className="mb-5 text-5xl font-bold -pl-30">Find Your New Home</h1>
-                            <p className="mb-5">Let's find a space that's perfect for you.</p>
-                            <button className="btn btn-primary">Get Started</button>
+                            <h1 className="mb-5 text-5xl font-bold -pl-30 text-white">Find Your New Home</h1>
+                            <p className="mb-5 text-white">Let's find a space that's perfect for you.</p>
+                            <button className="btn btn-primary text-white">Get Started</button>
                         </div>
                     </div>
                 </div>
@@ -56,9 +56,9 @@ const Banner = () => {
                     <div className="hero-overlay bg-opacity-60"></div>
                     <div className="hero-content text-center text-neutral-content">
                         <div className="">
-                            <h1 className="mb-5 text-5xl font-bold -pl-30">Find Your New Home</h1>
-                            <p className="mb-5">Let's find a space that's perfect for you.</p>
-                            <button className="btn btn-primary">Get Started</button>
+                            <h1 className="mb-5 text-5xl font-bold -pl-30 text-white">Find Your New Home</h1>
+                            <p className="mb-5 text-white">Let's find a space that's perfect for you.</p>
+                            <button className="btn btn-primary text-white">Get Started</button>
                         </div>
                     </div>
                 </div>

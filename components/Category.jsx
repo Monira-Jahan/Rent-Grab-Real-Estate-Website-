@@ -13,7 +13,7 @@ const Category = () => {
             <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
                 <div class="text-center">
                     <div class="text-center mb-4">
-                        <h2 data-aos="flip-left" class="text-2xl font-bold text-gray-800 lg:text-3xl text-center py-6">Discover Property Types</h2>
+                        <h2 data-aos="flip-left" class="text-2xl font-bold text-gray-800 lg:text-3xl text-center pt-10 pb-3 border-b-2 border-primary w-3/5 mx-auto mb-8">Discover Property Types</h2>
 
                     </div>
 

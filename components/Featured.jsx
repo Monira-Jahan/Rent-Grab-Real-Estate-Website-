@@ -13,7 +13,7 @@ const Featured = () => {
     return (
         <section>
             <div class="text-center mb-4">
-                <h2 data-aos="flip-left" class="text-2xl font-bold text-gray-800 lg:text-3xl text-center py-6">Featured Properties</h2>
+                <h2 data-aos="flip-left" class="text-2xl font-bold text-gray-800 lg:text-3xl text-center pt-12 pb-3 border-b-2 border-primary w-3/5 mx-auto mb-8">Featured Properties</h2>
 
                 <p class="hidden max-w-screen-sm text-gray-500 md:block text-center mx-auto"></p>
             </div>
