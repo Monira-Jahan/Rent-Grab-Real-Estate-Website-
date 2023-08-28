@@ -1,3 +1,4 @@
+import AvailableCities from '@/components/AvailableCities'
 import Banner from '@/components/Banner'
 import Category from '@/components/Category'
 import Featured from '@/components/Featured'
@@ -13,6 +14,7 @@ export default function Home() {
      <Banner></Banner>
      <Category></Category>
      <Featured></Featured>
+     <AvailableCities></AvailableCities>
      <Footer></Footer>
    </div>
   )
