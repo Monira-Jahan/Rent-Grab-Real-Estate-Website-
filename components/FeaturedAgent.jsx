@@ -11,53 +11,65 @@ const FeaturedAgent = () => {
         AOS.refresh();
     }, []);
     return (
-        <div className="mx-auto my-8">
-            <div class="text-center mb-4">
-                <h2 data-aos="flip-left" class="text-2xl font-bold text-gray-800 lg:text-3xl text-center py-6">Discover Property Types</h2>
+        <section>
+            <div className="mx-auto my-10">
+                <div class="text-center mb-4">
+                    <h2 data-aos="flip-left" class="text-2xl font-bold text-gray-800 lg:text-3xl text-center py-6">Our Featured Agent</h2>
+
+                </div>
+                <Marquee className="overflow-x-hidden" direction='right'>
+                    <div className='grid md:grid-cols-4 mx-auto gap-3'>
+                        <div className="card card-compact w-96  bg-base-100 shadow-xl border-2 border-gray-200">
+                            <figure className='rounded-xl'><img className="h-72 w-72 mt-6 rounded-xl" src="https://i.ibb.co/L61CQNM/christina-wocintechchat-com-k-Xf-BDl0f-R1-E-unsplash.jpg" alt=" " /></figure>
+                            <div className="card-body text-center">
+                                <h2 className="card-title mx-auto">Selina Akter</h2>
+                                <p className="text-gray-300">Agent,Dhaka</p>
+
+                            </div>
+                        </div>
+                        {/* Card-2 */}
+                        <div className="card card-compact w-96  bg-base-100 shadow-xl border-2 border-gray-200">
+                            <figure className='rounded-xl'><img className="h-72 w-72 mt-6 rounded-xl" src="https://i.ibb.co/Qbbm8HW/annika-palmari-RIt88-XBR3-G0-unsplash.jpghttps://i.ibb.co/TP8YqHs/photo-1580489944761-15a19d654956-crop-faces-edges-cs-tinysrgb-fit-crop-fm-jpg-ixid-M3wx-Mj-A3f-DB8-M.jpg" alt=" " /></figure>
+                            <div className="card-body text-center">
+                                <h2 className="card-title mx-auto">Munmun</h2>
+                                <p className="text-gray-300">Agent,Chittagong</p>
+
+                            </div>
+                        </div>
+                        {/* Card-3 */}
+                        <div className="card card-compact w-96  bg-base-100 shadow-xl border-2 border-gray-200">
+                            <figure className='rounded-xl'><img className="h-72 w-72 mt-6 rounded-xl" src="https://i.ibb.co/9gdssdt/jake-nackos-IF9-TK5-Uy-KI-unsplash.jpg" alt=" " /></figure>
+                            <div className="card-body text-center">
+                                <h2 className="card-title mx-auto">Israt Jahan</h2>
+                                <p className="text-gray-300">Agent,Sylhet</p>
+
+                            </div>
+                        </div>
+
+                        {/* card-4 */}
+                        <div className="card card-compact w-96  bg-base-100 shadow-xl border-2 border-gray-200 mr-5">
+                            <figure className='rounded-xl'><img className="h-72 w-72 mt-6 rounded-xl" src="https://i.ibb.co/YR6pMg3/christina-wocintechchat-com-50-Tk-Ca-P8-M3-A-unsplash.jpg" alt=" " /></figure>
+                            <div className="card-body text-center">
+                                <h2 className="card-title mx-auto">Sonchita Mahbub</h2>
+                                <p className="text-gray-300">Agent,Rajshahi</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </Marquee>
+                {/* Card-1 */}
 
             </div>
-            <Marquee className="overflow-x-hidden" direction='right'>
-            <div className='grid md:grid-cols-4 mx-auto gap-3'>
-                <div className="card card-compact w-96  bg-base-100 shadow-xl border-2 border-gray-200">
-                    <figure className='rounded-xl'><img className="h-72 w-72 mt-6 rounded-xl" src="https://i.ibb.co/L61CQNM/christina-wocintechchat-com-k-Xf-BDl0f-R1-E-unsplash.jpg" alt=" " /></figure>
-                    <div className="card-body text-center">
-                        <h2 className="card-title mx-auto">Selina Akter</h2>
-                        <p className="text-gray-300">Agent,Dhaka</p>
-
-                    </div>
+            <div className='flex bg-blue-700 w-full h-40 rounded-xl mb-4 bg-opacity-90'>
+                <div className='w-1/2 '>
+                <h1 className='font-bold text-2xl text-start text-white pt-12 pl-16'>Become a Real Estate Agent</h1>
+                <p className='font-normal text-sm text-white pt-2 pl-16'>We only work with the best companies around the globe</p>
                 </div>
-                {/* Card-2 */}
-                <div className="card card-compact w-96  bg-base-100 shadow-xl border-2 border-gray-200">
-                    <figure className='rounded-xl'><img className="h-72 w-72 mt-6 rounded-xl" src="https://i.ibb.co/L61CQNM/christina-wocintechchat-com-k-Xf-BDl0f-R1-E-unsplash.jpg" alt=" " /></figure>
-                    <div className="card-body text-center">
-                        <h2 className="card-title mx-auto">Munmun</h2>
-                        <p className="text-gray-300">Agent,Chittagong</p>
-
-                    </div>
-                </div>
-                {/* Card-3 */}
-                <div className="card card-compact w-96  bg-base-100 shadow-xl border-2 border-gray-200">
-                    <figure className='rounded-xl'><img className="h-72 w-72 mt-6 rounded-xl" src="https://i.ibb.co/L61CQNM/christina-wocintechchat-com-k-Xf-BDl0f-R1-E-unsplash.jpg" alt=" " /></figure>
-                    <div className="card-body text-center">
-                        <h2 className="card-title mx-auto">Israt Jahan</h2>
-                        <p className="text-gray-300">Agent,Sylhet</p>
-
-                    </div>
-                </div>
-                {/*  */}
-                <div className="card card-compact w-96  bg-base-100 shadow-xl border-2 border-gray-200 mr-5">
-                    <figure className='rounded-xl'><img className="h-72 w-72 mt-6 rounded-xl" src="https://i.ibb.co/L61CQNM/christina-wocintechchat-com-k-Xf-BDl0f-R1-E-unsplash.jpg" alt=" " /></figure>
-                    <div className="card-body text-center">
-                        <h2 className="card-title mx-auto">Sonchita Mahbub</h2>
-                        <p className="text-gray-300">Agent,Rajshahi</p>
-
-                    </div>
+                <div className='pt-12 w-1/2 pl-96'>
+                <button className='btn bg-base-100 '>Register</button>
                 </div>
             </div>
-            </Marquee>
-            {/* Card-1 */}
-
-        </div>
+        </section>
 
 
     );
