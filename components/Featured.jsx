@@ -1,10 +1,19 @@
+'use client'
 import React from 'react';
 import { FaBed } from "react-icons/fa";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 const Featured = () => {
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      }, []);
     return (
         <section>
             <div class="text-center mb-4">
-                <h2 class="text-2xl font-bold text-gray-800 lg:text-3xl text-center py-6">Featured Properties</h2>
+                <h2 data-aos="flip-left" class="text-2xl font-bold text-gray-800 lg:text-3xl text-center py-6">Featured Properties</h2>
 
                 <p class="hidden max-w-screen-sm text-gray-500 md:block text-center mx-auto"></p>
             </div>
