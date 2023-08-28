@@ -2,6 +2,7 @@ import AvailableCities from '@/components/AvailableCities'
 import Banner from '@/components/Banner'
 import Category from '@/components/Category'
 import Featured from '@/components/Featured'
+import FeaturedAgent from '@/components/FeaturedAgent'
 import Footer from '@/components/Footer'
 
 import Header from '@/components/Header'
@@ -17,6 +18,7 @@ export default function Home() {
      <Featured></Featured>
      <AvailableCities></AvailableCities>
      <WorkProcess></WorkProcess>
+     <FeaturedAgent></FeaturedAgent>
      <Footer></Footer>
    </div>
   )
