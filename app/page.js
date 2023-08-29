@@ -1,6 +1,7 @@
 import AvailableCities from '@/components/AvailableCities'
 import Banner from '@/components/Banner'
 import Category from '@/components/Category'
+import ContactPage from '@/components/ContactPage'
 import Featured from '@/components/Featured'
 import FeaturedAgent from '@/components/FeaturedAgent'
 import Footer from '@/components/Footer'
@@ -23,6 +24,7 @@ export default function Home() {
      <FeaturedAgent></FeaturedAgent>
      <Testimonial></Testimonial>
      <Sponsors></Sponsors>
+     <ContactPage></ContactPage>
      <Footer></Footer>
    </div>
   )

@@ -12,7 +12,7 @@ const Header = () => {
                         <li><a>Home</a></li>
                         <li>
                             <a>Property</a>
-                        
+
                         </li>
                         <li><a>Blog</a></li>
                         <li><a>About</a></li>
@@ -20,24 +20,19 @@ const Header = () => {
                     </ul>
                 </div>
                 <a className="btn btn-ghost normal-case text-xl font-bold text-primary italic">Rent & Grab</a>
-                
+
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 font-medium">
                     <li><a>Home</a></li>
-                    <li tabIndex={0}>
-                        <details>
-                            <summary>Property</summary>
-                            
-                        </details>
-                    </li>
+                    <li><a>Property</a></li>
                     <li><a>Blog</a></li>
                     <li><a>About</a></li>
                     <li><a>Contact</a></li>
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn btn-primary text-white"><FaUserAlt className='mr-1 text-white'/>Join Us</a>
+                <a className="btn btn-primary text-white"><FaUserAlt className='mr-1 text-white' />Join Us</a>
             </div>
         </div>
     );
