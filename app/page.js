@@ -6,6 +6,7 @@ import FeaturedAgent from '@/components/FeaturedAgent'
 import Footer from '@/components/Footer'
 
 import Header from '@/components/Header'
+import Sponsors from '@/components/Sponsors'
 import Testimonial from '@/components/Testimonial'
 import WorkProcess from '@/components/WorkProcess'
 import Image from 'next/image'
@@ -21,6 +22,7 @@ export default function Home() {
      <WorkProcess></WorkProcess>
      <FeaturedAgent></FeaturedAgent>
      <Testimonial></Testimonial>
+     <Sponsors></Sponsors>
      <Footer></Footer>
    </div>
   )

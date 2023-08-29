@@ -14,7 +14,7 @@ const FeaturedAgent = () => {
         <section>
             <div className="mx-auto my-10">
                 <div class="text-center mb-4">
-                    <h2 data-aos="flip-left" class="text-2xl font-bold text-gray-800 lg:text-3xl text-center pt-12 pb-3 mb-16 border-b-2 border-primary w-3/5 mx-auto">Our Featured Agent</h2>
+                    <h2 data-aos="flip-left" class="text-2xl font-bold text-gray-800 lg:text-3xl text-center pt-12 pb-3 mb-16 w-3/5 mx-auto">Our Featured Agent</h2>
 
                 </div>
                 <Marquee className="overflow-x-hidden" direction='right'>

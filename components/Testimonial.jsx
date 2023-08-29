@@ -13,7 +13,7 @@ const Testimonial = () => {
 
         <section class="bg-white">
             <div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
-                <h2 data-aos="flip-left" class="text-2xl font-bold text-gray-800 lg:text-3xl text-center py-6 border-b-2 border-primary w-3/5 mx-auto"
+                <h2 data-aos="flip-left" class="text-2xl font-bold text-gray-800 lg:text-3xl text-center py-6 w-3/5 mx-auto"
                 >
                     Read trusted reviews from our customers
                 </h2>

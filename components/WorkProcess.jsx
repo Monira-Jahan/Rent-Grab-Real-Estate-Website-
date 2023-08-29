@@ -12,7 +12,7 @@ const WorkProcess = () => {
     return (
         <section>
             <div className="mb-4 my-10">
-                <h1 data-aos="flip-left" className="text-xl md:text-3xl font-bold text-center pt-12 pb-3 border-b-2 border-primary w-3/5 mx-auto mb-10">How It Works!!</h1>
+                <h1 data-aos="flip-left" className="text-xl md:text-3xl font-bold text-center pt-12 pb-3 w-3/5 mx-auto mb-10">How It Works!!</h1>
 
                 <Zoom>
                     <div className='grid grid-cols-1 md:grid-cols-4 mx-auto gap-3 ml-12'>
