@@ -13,7 +13,7 @@ const Featured = () => {
     return (
         <section>
             <div class="text-center mb-4">
-                <h2 data-aos="flip-left" class="text-2xl font-bold text-gray-800 lg:text-3xl text-center pt-12 pb-3  w-3/5 mx-auto mb-8">Featured Properties</h2>
+                <h2 data-aos="flip-left" class="text-2xl font-bold  dark:text-white lg:text-3xl text-center pt-12 pb-3  w-3/5 mx-auto mb-8">Featured Properties</h2>
 
                 <p class="hidden max-w-screen-sm text-gray-500 md:block text-center mx-auto"></p>
             </div>
@@ -21,7 +21,8 @@ const Featured = () => {
 
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-3'>
                     {/* first Card */}
-                    <div className="card card-side bg-base-100 shadow-xl border-2 mx-2 md:mx-0 border-gray-200">
+     
+                   <div className="card card-side bg-base-100 shadow-xl border-2 mx-2 md:mx-0 border-gray-200">
                         <figure><img className="md:w-64  h-52 rounded-xl m-2" src="https://i.ibb.co/T0t4N0F/photo-1615873968403-89e068629265-crop-faces-edges-cs-tinysrgb-fit-crop-fm-jpg-ixid-M3wx-Mj-A3f-DB8-M.jpg" alt=" " /></figure>
                         <div className="card-body">
                             <h2 className="card-title">Single Family House</h2>
