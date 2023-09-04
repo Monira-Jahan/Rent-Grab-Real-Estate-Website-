@@ -14,7 +14,7 @@ export default function Home() {
    <main className='max-w-7xl mx-auto'>
      {/* <Header></Header> */}
      <Banner></Banner>
-    <Category></Category>
+     <Category></Category>
      <Featured></Featured>
      <AvailableCities></AvailableCities>
      <WorkProcess></WorkProcess>

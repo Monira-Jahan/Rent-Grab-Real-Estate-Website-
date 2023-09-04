@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
+    "@lottiefiles/lottie-player": "^2.0.2",
     "@material-tailwind/react": "^2.1.1",
     "aos": "^2.3.4",
     "autoprefixer": "10.4.15",
