@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import { FaUserAlt } from "react-icons/fa";
+import { FaUserAlt, FaPlusCircle } from "react-icons/fa";
 const Header = () => {
     return (
         <div className="navbar fixed z-10 bg-base-100 bg-opacity-80 border shadow-xl rounded-xl mb-4 mx-auto  max-w-screen-xl">
@@ -14,23 +14,26 @@ const Header = () => {
                         <li><a>Property</a></li>
                         <li><Link href={"/blog"}>Blog</Link></li>
                         <li><Link href={"/about"}>About</Link></li>
-                        <li><a>Contact</a></li>
+                        <li><Link href={"/contact"}>Contact</Link></li>
                     </ul>
                 </div>
                 <a className="btn btn-ghost normal-case text-xl font-bold text-primary italic">Rent & Grab</a>
 
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1 font-semibold">
+                <ul className="menu menu-horizontal pl-8 font-semibold">
                     <li><Link href={"/"}>Home</Link></li>
                     <li><a>Property</a></li>
                     <li><Link href={"/blog"}>Blog</Link></li>
                     <li><Link href={"/about"}>About</Link></li>
                     <li><Link href={"/contact"}>Contact</Link></li>
+                    
                 </ul>
             </div>
             <div className="navbar-end">
-                <Link href={"/register"} className="btn btn-primary text-white"><FaUserAlt className='mr-1 text-white' />Join Us</Link>
+                <Link href={"/register"} className="btn btn-primary text-white"><FaUserAlt className='mr-1 text-white' />Join Us</Link> 
+                <Link href={""} className="btn btn-outline btn-primary text-primary ml-0 md:ml-2 hover:text-white hidden md:flex "><FaPlusCircle className='mr-2 text-primary hover:text-white' />Add Property</Link>
+
             </div>
         </div>
     );
