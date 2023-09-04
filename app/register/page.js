@@ -11,11 +11,11 @@ const page = () => {
                     class="w-full"
                     alt="Phone image" />
             </div>
-            <div className="md:h-[700px] h-[400px] bg-base-100 py-6 flex flex-col justify-center sm:py-12 my-8 rounded-xl shadow-xl">
-                <div className="relative py-3 sm:max-w-xl sm:mx-auto h-[520px] mt-2">
+            <div className="md:h-[700px] h-[400px] bg-base-100  flex flex-col justify-center sm:py-12 my-8 rounded-xl shadow-xl">
+                <div className="relative py-3 sm:max-w-xl sm:mx-auto h-[500px]">
                     <div className="absolute inset-0 bg-gradient-to-r from-blue-300 to-blue-600 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl">
                     </div>
-                    <div className="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20 h-[520px]">
+                    <div className="relative bg-white shadow-lg sm:rounded-3xl sm:py-16 px-20 h-[500px]">
                         <div className="max-w-md mx-auto">
                             <div>
                                 <h1 className="text-2xl font-semibold"> Please Register Now</h1>
@@ -42,12 +42,10 @@ const page = () => {
 
                                         </div>
                                         <div className="relative">
-                                            <button className="bg-blue-500 text-white rounded-md px-3 py-1 my-3 mx-6">Register</button>
+                                            <button className="bg-blue-500 text-white rounded-md px-3 py-1 my-3 mx-auto">Register</button>
                                         </div>
                                     </form>
-                                    <p className="font-normal text-center">Already Have an Account? Please <Link className="text-primary link-primary" href={""}>Login</Link>!!</p>
-
-                                    {/* <p className="text-red-400"></p> */}
+                                    <p className="font-medium text-sm text-center pb-4">Already Have an Account? Please <Link className="text-primary link-primary" href={"/login"}>Login</Link>!!</p>
                                 </div>
                             </div>
                         </div>
